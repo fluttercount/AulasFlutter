@@ -1,0 +1,16 @@
+{
+  "name": "Flutter Dev",
+  "image": "mcr.microsoft.com/devcontainers/dotnet",
+  "features": {
+    "ghcr.io/devcontainers/features/flutter:latest": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Dart-Code.flutter",
+        "Dart-Code.dart-code"
+      ]
+    }
+  },
+  "postCreateCommand": "flutter doctor && flutter pub get"
+}
